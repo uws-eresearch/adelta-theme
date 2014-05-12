@@ -1,0 +1,57 @@
+.sidebar {
+  div.section {
+    padding-top: 0;
+  }
+
+  .block {
+    background-color: @color-grey-light-x3;
+    border-color: #f9f9f9;
+
+    ul.islandora-solr-facet {
+      padding: 0;
+      list-style: none;
+
+      .count {
+        color: @color-grey-medium-x1;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+    font-family: "clear_sans_lightregular", Helvetica, Arial, sans-serif;
+  }
+
+  h3 {
+    margin: 18px 0 6px 0;
+  }
+
+  #edit-islandora-simple-search-query {
+    width: 160px;
+  }
+
+  #islandora-solr-advanced-search-form div.form-item {
+    display: block;
+    margin-right: 0;
+
+    select.form-select {
+      display: block;
+      width: 100%;
+    }
+    input.form-text {
+      display: block;
+      width: 162px;
+    }
+  }
+
+  input.form-submit {
+    display: block;
+    padding: 6px 18px;
+    width: 170px;
+    background-color: @color-grey-light-x3;
+    border: 1px solid @color-grey-medium-x3;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,71 @@
+.front {
+  #page-title {
+    display: none;
+  }
+
+  #islandora-solr-top {
+    display: none;
+  }
+}
+
+
+.islandora-adelta-content {
+  padding: 0;
+  background: none;
+  border: 0px solid #ddd;
+}
+
+.islandora-solr-search-results {
+  .islandora-solr-grid {
+    margin: 0;
+
+    dl.solr-grid-field {
+      width: 20%;
+      min-width: 100px;
+      min-height: 180px;
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: top;
+      margin: 10px 20px 10px 0;
+      zoom: 1;
+      _height: 180px;
+    }
+  }
+}
+
+.islandora-solr-search-result {
+  margin: 0 0 54px 0;
+  padding: 24px 0 0 0;
+  border-top: 2px solid @color-grey-medium-x1;
+
+  .solr-thumb {
+    width: 200px;
+    a {
+      line-height: 0;
+    }
+  }
+  dl.solr-fields {
+    margin: 0;
+    width: 100%;
+    float: none;
+    border-top: 0px solid #DDD;
+
+    dt {
+      margin-left: 24px;
+    }
+    dd {
+      padding-left: 0px;
+      width: 330px;
+    }
+
+    dt.mods-abstract-mt {
+      margin: 18px 0 0 0;
+      float: left;
+      clear: both;
+    }
+    dd.mods-abstract-mt {
+      margin: 18px 0 0 0;
+      width: 547px;
+    }
+  }
+}

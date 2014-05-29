@@ -9,6 +9,6 @@
 ---
 ## Installation
 
-  1. Download and install [less css](https://drupal.org/project/less) as a plugin for the drupal instance. Make sure to enable modification checking for development, and disable for production
+  1. Download and install [less css](https://drupal.org/project/less) as a plugin for the Drupal instance. Make sure to enable modification checking for development, and disable for production
   2. Clone this repository on the development/production environment in var/www/drupal/sites/all/themes
-  3. Enable the theme by vising the Appearance menu item in the drupan admin interface and selecting the ADELTA theme
+  3. Enable the theme by visiting the Appearance menu item in the Drupal admin interface and selecting the ADELTA theme

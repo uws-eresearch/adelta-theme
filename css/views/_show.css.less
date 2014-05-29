@@ -6,14 +6,41 @@
 
     .section {
       padding: 0;
-      border-top: 2px solid @color-grey-medium-x1;
+      border-top: 2px solid @color-grey-medium-x3;
+
+      .islandora-adelta-content img {
+        margin: 0 auto;
+      }
 
       fieldset {
-          border: 0px solid @color-grey-medium-x1;
-          
+        margin: 24px 0 0 0;
+        padding: 0;
+        border: 0px solid @color-grey-medium-x1;
+        background-color: @color-grey-light-x3;
+
         legend {
-          background: none;
+          margin: 0;
+          padding: 0 20px;
+          top: 0;
+          bottom: auto;
+          left: 0px;
+          right: auto;
+          height: auto;
+          background-color: @color-grey-light-x3;
           border: 0px solid @color-grey-medium-x1;
+          font-family: "clear_sansregular", Helvetica, Arial, sans-serif;
+          color: @color-grey-dark-x1;
+
+          .fieldset-legend {
+            background: url(/misc/menu-expanded.png) 5px 55% no-repeat;
+            padding-left: 15px;
+          }
+        }
+
+        section {
+          margin: 60px 0 0 0;
+          padding: 40px 20px 40px 20px;
+          border-top: 1px solid #B0BBCA;
         }
       }
     }

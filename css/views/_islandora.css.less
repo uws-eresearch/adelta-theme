@@ -9,24 +9,59 @@
 }
 
 
+.item-list {
+
+  .pager {
+    padding: 0;
+    line-height: 2.7;
+    text-align: left;
+
+    li {
+      padding: 6px 12px;
+      border: 1px solid #B0BBCA;
+    }
+  }
+}
+
 .islandora-adelta-content {
   padding: 0;
   background: none;
   border: 0px solid #ddd;
 }
 
+.not-front.page-islandora-object #content {
+  margin: 0;
+  padding: 0 0 0 15px;
+
+  .section {
+    border: 0px solid #ddd;
+  }
+}
+
+#islandora-solr-result-count, .islandora-basic-collection-display-switch {
+  position: absolute;
+  top: 40px;
+  right: 0;
+
+  ul.inline li {
+    padding: 6px 12px;
+    border: 1px solid #B0BBCA;
+  }
+}
+
 .islandora-solr-search-results {
   .islandora-solr-grid {
     margin: 0;
+    width: 100%;
 
     dl.solr-grid-field {
-      width: 20%;
+      margin: 10px 20px 20px 0;
+      width: 141px;
       min-width: 100px;
       min-height: 180px;
       display: -moz-inline-stack;
       display: inline-block;
       vertical-align: top;
-      margin: 10px 20px 10px 0;
       zoom: 1;
       _height: 180px;
     }
@@ -40,7 +75,7 @@ dt.solr-grid-thumb img {
 .islandora-solr-search-result {
   margin: 0 0 54px 0;
   padding: 24px 0 0 0;
-  border-top: 2px solid @color-grey-medium-x1;
+  border-top: 0px solid @color-grey-medium-x1;
 
   .solr-thumb {
     width: 200px;
@@ -70,6 +105,59 @@ dt.solr-grid-thumb img {
     dd.mods-abstract-mt {
       margin: 18px 0 0 0;
       width: 547px;
+    }
+  }
+}
+
+.islandora-basic-collection {
+  .islandora-basic-collection-object {
+    position: relative;
+    margin: 10px 20px 20px 0;
+    width: 141px;
+    height: 141px;
+
+    &.islandora-basic-collection-list-item {
+      width: 100%;
+
+      dt {
+        position: relative;
+        width: 160px;
+
+        a {
+          position: static;
+        }
+
+        img {
+          max-height: 140px;
+        }
+      }
+      dd.collection-value {
+        margin: 0 0 0 200px;
+
+      }
+    }
+
+    dt {
+      a {
+        position: absolute;
+        bottom: 0;
+
+        img {
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+      }
+    }
+    dd {
+      text-align: left;
+
+      img {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        max-height: 100px;
+      }
     }
   }
 }

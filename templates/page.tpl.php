@@ -254,3 +254,4 @@
   </div></div> <!-- /.section, /#footer-wrapper -->
 
 </div></div> <!-- /#page, /#page-wrapper -->
+<script type="text/javascript" src="/sites/all/themes/adelta-theme/js/categories.js"></script>

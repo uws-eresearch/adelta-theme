@@ -1,0 +1,212 @@
+@media (max-width: 1024px) {
+  div#main-wrapper div#main {
+    margin: 0 0 84px 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1041px) {
+  div#header div.section {
+    margin: 0 auto 0 0;
+    padding: 20px 0 0 0;
+  }
+
+  div#main-wrapper div#main {
+    margin: 0 0 84px 0;
+    padding: 0;
+    width: 960px;
+  }
+
+  div#footer-wrapper {
+    padding: 36px 0;
+
+    #footer-columns {
+    }
+  }
+}
+
+@media (max-width: 960px) {
+
+
+  div#page-wrapper {
+    min-width: 780px;
+  }
+
+  div#header div.section {
+    width: auto;
+  }
+
+  #main #content {
+    width: 520px;
+  }
+
+  div#main-wrapper div#main {
+    width: auto;
+  }
+
+  div#footer-wrapper {
+    #footer-columns {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+
+  #header #site-slogan {
+    left: 230px;
+    right: 20px;
+    font-size: 66px;
+  }
+
+  div#page-wrapper {
+    min-width: 620px;
+  }
+
+  div#main div#content {
+    width: 380px;
+  }
+  div#page-wrapper {
+    width: auto;
+    // max-width:
+  }
+}
+
+@media (max-width: 635px) {
+  div#main-wrapper {
+    div#main div#content {
+      width: 500px;
+      top: 0;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+
+  #header #site-slogan {
+    left: 230px;
+    right: 20px;
+    font-size: 60px;
+  }
+
+  div#page-wrapper {
+    min-width: 400px;
+  }
+
+  div#main-wrapper {
+    div#main div#content {
+      width: 500px;
+      top: 0;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+
+  div#header div.section {
+    margin: 0;
+    padding: 0;
+
+    a#logo, #name-and-slogan, #main-menu {
+      margin: 0;
+    }
+  }
+
+  #header #site-slogan {
+    padding: 20px;
+    height: 254px;
+    top: 0;
+    left: 180px;
+    right: 0;
+    background: @color-grey-light-x3;
+    font-size: 36px;
+    color: #FFF;
+  }
+
+  #content {
+    top: 0;
+  }
+
+  .region-content ul.pager, .region-content ol {
+    padding: 0;
+  }
+
+  div#main div#content {
+    width: 220px;
+  }
+
+  div#content div.section {
+    padding: 0;
+  }
+
+  div#main-wrapper {
+
+    .section {
+      padding: 0;
+    }
+
+    #sidebar-first {
+      float: none;
+
+      #block-islandora-solr-basic-facets {
+        position: relative;
+        margin: 0 20px;
+        height: 20px;
+        overflow-y: hidden;
+
+        h2 {
+          border-bottom: 0px solid #d6d6d6;
+          background: transprent;
+
+          &:before {
+            content: "";
+            top: 18px;
+            right: 20px;
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 6px;
+            margin-left: 12px;
+            border-right-width: 0;
+            border-left-color: #757875;
+          }
+        }
+
+        &.expanded {
+          height: auto;
+
+          h2 {
+            border-bottom: 1px solid #d6d6d6;
+            &:before {
+              top: 20px;
+              border-right-width: 6px;
+              border-bottom-width: 0;
+              border-left-color: transparent;
+              border-top-color: #757875;
+            }
+          }
+        }
+      }
+    }
+
+    div#main div#content {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+      width: 360px;
+      top: 0;
+      float: none;
+      clear: both;
+    }
+  }
+}
+
+@media (max-width: 435px) {
+  #header #site-slogan {
+    font-size: 30px;
+    line-height: 1;
+  }
+}

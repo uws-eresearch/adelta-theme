@@ -100,19 +100,19 @@
 
 body {
   font-family: "clear_sansregular", Helvetica, Arial, sans-serif;
-  color: #647179;
+  color: #627078;
   font-size: 15px;
 }
 
 a {
-  color: #FC6173;
+  color: #da004f;
 }
 a:hover, a:focus {
-    color: #EC4D68;
+    color: #c8024a;
 }
 
 a:active {
-  color: #23aeff;
+  color: #da004f;
 }
 
 h1, h2, h3, h4, h5 {

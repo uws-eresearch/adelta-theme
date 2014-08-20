@@ -179,7 +179,7 @@
 
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">
-        <?php print render($page['sidebar_first']); ?>
+        <?php print str_replace('<input type="text" id="edit-islandora-simple-search-query"', '<label for="edit-islandora-simple-search-query" class="sr-only">Search</label><input type="text" id="edit-islandora-simple-search-query"', render($page['sidebar_first'])); ?>
       </div></div> <!-- /.section, /#sidebar-first -->
     <?php endif; ?>
 

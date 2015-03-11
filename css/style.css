@@ -1080,6 +1080,9 @@ fieldset {
 .filter-wrapper .form-item label {
   margin-right: 10px;
 }
+.form-item label .form-required {
+  color:#f85757;
+}
 .filter-wrapper .form-item {
   padding: 0 0 0.5em 0.5em;
 }

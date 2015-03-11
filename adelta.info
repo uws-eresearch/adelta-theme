@@ -2,7 +2,7 @@
 name = ADELTA
 description = ADELTA Drupal theme
 package = Core
-version = VERSION
+version = 7.x-1.0-beta
 core = 7.x
 
 stylesheets[all][] = css/adelta.css.less
@@ -37,6 +37,6 @@ settings[shortcut_module_link] = 0
 
 
 ; Information added by drupal.org packaging script on 2013-03-07
-version = "7.21"
-project = "drupal"
-datestamp = "1362616996"
+;version = "7.21"
+;project = "drupal"
+;datestamp = "1362616996"
